@@ -1,0 +1,78 @@
+# Primeiro projeto GitHub :desktop_computer:
+
+### Sobre o Git:
+
+É um sistema de versionamento de código distribuído.
+
+O Git é um software que nos ajuda a armazenar códigos .Trata-se de uma interface colaborativa, que nos auxilia no controle da versão do projeto. Nesse sentido, vale salientar os benefícios de se utilizar o Git:
+
+- Controle de versão
+
+- Armazenamento em Nuvem 
+
+- Trabalho em Equipe
+
+- Aperfeiçoamento do código
+
+  
+
+## Sobre o GitHub
+
+É um repositório online (repositório remoto), e por meio de comandos específicos é possível transferir arquivos/ repositórios de nossa Working directory (repositório local), para  o GitHub. O GitHub é um sistema distribuído, um sistema que possui múltiplas cópias de si mesmo em diferentes locais
+
+
+
+#### Principais comandos do Git:
+
+- git int: inicializa um repositório git na pasta em questão
+
+- git clone: faz um clone do repositório remoto em seu repositório local
+
+- dir: retorna uma lista com o conteúdo contido naquele diretório específico
+
+- git push origin master: utilizado para empurrar o código para o GitHub (repositório local-> repositório remoto = GitHub)
+
+- git add * ou git add. : mover arquivos (arquivo untracked-> staged)
+
+- git commit -m "comentario" : criar commit ( staging-> repositório local )
+
+- cd: permite navegar para uma pasta específica
+
+- mkdir: cria uma nova pasta ( ex mkdir workspace)
+
+- git status: para saber status do arquivo
+
+- cls:  limpar a tela de trabalho
+
+- echo: criação de arquivo ( ex: echo hello> hello.txt)
+
+  
+
+_Observação: o ambiente de servidor seria um ambiente de desenvolvimento local, já o servido seria o sistema de desenvolvimento remoto_
+
+_Observação2: Quando você tenta empurrar o código par o GitHub e seu commit não representa o estado mais atual do repositório, o Git irá pedir  para você fazer um pull e depois um push (git pull origin master, assim irá revelar o conflito de vesão "Merge conflict in README.md")_
+
+_Observação3: Complementa automaticamente_
+
+
+
+### Passo a Passo
+
+1º criar repositório no GitHub
+
+- Lembrar de deixar público e de marcar a opção "add readme", pois cria uma home page (página inicial no repositório)
+
+2º Clonar código do repositório e transferir para o Git
+
+- git clone link
+
+3º git add.
+
+4º git status
+
+5º git commit -m "comentário"
+
+6º git status
+
+7º git push origin main
+
